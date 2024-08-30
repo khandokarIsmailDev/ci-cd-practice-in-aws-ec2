@@ -8,8 +8,9 @@ const app = express()
 
 
 app.get('/',(req,res) =>{
-    res.status(200).send(`hello, from node app running port ${port}`)
+    res.status(200).send(`hello, from node app running port ${port}.,was updated`)
 })
+
 
 app.get('/user',(req,res)=>{
     res.status(200).send(`Hello bos boss bosss`)
